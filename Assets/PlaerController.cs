@@ -15,9 +15,10 @@ public class PlaerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     if(Input.GetKeyDown(KeyCode.W))
-     {
-        rb.velocity=new(speed,0f,0f);
-     }
+      Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"),0,Input.GetAxis("Vertical"));
+      rb.velocity=new(speed*targetVelocity.x,0f,speed*targetVelocity.z); 
+    float Mouse = transform.localEulerAngels.y + Input.GetAxis("Mouse X") * Mouse Sensitivity;
     }
+   
+
 }
