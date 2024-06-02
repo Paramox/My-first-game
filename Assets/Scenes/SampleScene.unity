@@ -235,7 +235,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &366393901
 GameObject:
@@ -332,7 +332,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &660081933
 GameObject:
@@ -429,7 +429,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -620,7 +620,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -801,7 +801,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -91.846, z: 0}
 --- !u!1 &2091698516
 GameObject:
@@ -950,7 +950,7 @@ Transform:
   m_Children:
   - {fileID: 2091698517}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2137965792
 MonoBehaviour:
@@ -964,4 +964,357 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a38e373a0c6eb7540beb99f0a2b16561, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mouseSensitivity: 2
+  camera: {fileID: 963194225}
   speed: 5
+--- !u!4 &1342213405562091081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342213405562120809}
+  m_LocalRotation: {x: -0.0013531146, y: 0.9916007, z: 0.0018307306, w: 0.12931696}
+  m_LocalPosition: {x: -0, y: 1.455, z: 1.586}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1342213405562091447}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.228, y: 165.14, z: -0.127}
+--- !u!4 &1342213405562091447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342213405562120791}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.50634, y: 0.066859245, z: -1.1284561}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1342213405562091081}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1342213405562120791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1342213405562091447}
+  - component: {fileID: 1342213405571635245}
+  m_Layer: 0
+  m_Name: ExampleModel01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1342213405562120809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1342213405562091081}
+  - component: {fileID: 1342213405567395561}
+  m_Layer: 0
+  m_Name: ExampleModel01_Hands
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!137 &1342213405567395561
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342213405562120809}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d507bf4867c01fe479be4c7a89e6af30, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300004, guid: 180db941c9f276443955074b073a7f1e, type: 3}
+  m_Bones:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: -0.44557077, y: 0.00000023841858, z: 0.08292525}
+    m_Extent: {x: 0.08478415, y: 0.8617338, z: 0.118510656}
+  m_DirtyAABB: 0
+--- !u!95 &1342213405571635245
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342213405562120791}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 180db941c9f276443955074b073a7f1e, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: '
+
+    Transform ''B-jaw'' has been deleted
+
+    Transform ''B-head''
+    has been deleted
+
+    Transform ''B-neck'' has been deleted
+
+    Transform ''B-f_index_03.L''
+    has been deleted
+
+    Transform ''B-f_index_02.L'' has been deleted
+
+    Transform
+    ''B-f_index_01.L'' has been deleted
+
+    Transform ''B-thumb_03.L'' has been
+    deleted
+
+    Transform ''B-thumb_02.L'' has been deleted
+
+    Transform ''B-thumb_01.L''
+    has been deleted
+
+    Transform ''B-palm_01.L'' has been deleted
+
+    Transform
+    ''B-f_middle_03.L'' has been deleted
+
+    Transform ''B-f_middle_02.L'' has been
+    deleted
+
+    Transform ''B-f_middle_01.L'' has been deleted
+
+    Transform ''B-palm_02.L''
+    has been deleted
+
+    Transform ''B-f_ring_03.L'' has been deleted
+
+    Transform
+    ''B-f_ring_02.L'' has been deleted
+
+    Transform ''B-f_ring_01.L'' has been
+    deleted
+
+    Transform ''B-palm_03.L'' has been deleted
+
+    Transform ''B-f_pinky_03.L''
+    has been deleted
+
+    Transform ''B-f_pinky_02.L'' has been deleted
+
+    Transform
+    ''B-f_pinky_01.L'' has been deleted
+
+    Transform ''B-palm_04.L'' has been deleted
+
+    Transform
+    ''B-hand.L'' has been deleted
+
+    Transform ''B-forearm.L'' has been deleted
+
+    Transform
+    ''B-upper_arm.L'' has been deleted
+
+    Transform ''B-shoulder.L'' has been deleted
+
+    Transform
+    ''B-f_index_03.R'' has been deleted
+
+    Transform ''B-f_index_02.R'' has been
+    deleted
+
+    Transform ''B-f_index_01.R'' has been deleted
+
+    Transform ''B-thumb_03.R''
+    has been deleted
+
+    Transform ''B-thumb_02.R'' has been deleted
+
+    Transform
+    ''B-thumb_01.R'' has been deleted
+
+    Transform ''B-palm_01.R'' has been deleted
+
+    Transform
+    ''B-f_middle_03.R'' has been deleted
+
+    Transform ''B-f_middle_02.R'' has been
+    deleted
+
+    Transform ''B-f_middle_01.R'' has been deleted
+
+    Transform ''B-palm_02.R''
+    has been deleted
+
+    Transform ''B-f_ring_03.R'' has been deleted
+
+    Transform
+    ''B-f_ring_02.R'' has been deleted
+
+    Transform ''B-f_ring_01.R'' has been
+    deleted
+
+    Transform ''B-palm_03.R'' has been deleted
+
+    Transform ''B-f_pinky_03.R''
+    has been deleted
+
+    Transform ''B-f_pinky_02.R'' has been deleted
+
+    Transform
+    ''B-f_pinky_01.R'' has been deleted
+
+    Transform ''B-palm_04.R'' has been deleted
+
+    Transform
+    ''B-hand.R'' has been deleted
+
+    Transform ''B-forearm.R'' has been deleted
+
+    Transform
+    ''B-upper_arm.R'' has been deleted
+
+    Transform ''B-shoulder.R'' has been deleted
+
+    Transform
+    ''B-upperChest'' has been deleted
+
+    Transform ''B-chest'' has been deleted
+
+    Transform
+    ''B-spine'' has been deleted
+
+    Transform ''B-toe.L'' has been deleted
+
+    Transform
+    ''B-foot.L'' has been deleted
+
+    Transform ''B-shin.L'' has been deleted
+
+    Transform
+    ''B-thigh.L'' has been deleted
+
+    Transform ''B-toe.R'' has been deleted
+
+    Transform
+    ''B-foot.R'' has been deleted
+
+    Transform ''B-shin.R'' has been deleted
+
+    Transform
+    ''B-thigh.R'' has been deleted
+
+    Transform ''B-hips'' has been deleted
+
+    Transform
+    ''root'' has been deleted
+
+    Transform ''ExampleRig01'' has been deleted'
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
