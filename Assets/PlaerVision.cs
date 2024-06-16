@@ -18,9 +18,10 @@ public class PlaerVision : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && _interactableObject != null)
         {
             _interactableObject.GetComponent<Item>().Interact(camera);
+            _interactableObject.GetComponent<Rigidbody>().isKinematic =true;       
         }
     }
 }
